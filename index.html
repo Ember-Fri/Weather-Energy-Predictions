@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+
+<style type="text/css">
+  
+.chartBox1 {
+  width: 20%;
+}
+
+
+.chartBox {
+  width: 40%;
+  height: 40%;
+ 
+}
+
+</style>
+
+  <style>
+p.ex1 {
+   margin-right: 45px;
+}
+</style>
+
+  <style>
+img {
+  float: right;
+  margin: 0px 0px 15px 20px;
+}
+</style>
+</head>
+  
+<body>
+  <h1> Schedule your electricity usage for a greener planet </h1>
+  <p class="ex1">
+    <img id="windmill" src="windmil.png">
+    
+The electricity at our homes and offices is a mix of various generation sources including but not limited to Coal, Gas, Wind, Hydro, Solar, etc. some have more carbon footprint than others. Due to cost, availability, and demand, the supply from various sources is dynamic and changes throughout the day. As a user, you are unaware of the source before consumption and hence cannot map your electricity usage to optimize the carbon footprint. This application allows the user access to the source information (Green, non-green) and helps with the scheduling of electricity-centric workloads to minimize the overall carbon footprint. This informed utilization and scheduling of electricity can eventually lead to less demand at times when the source is not clean, as a result, less coal would be burned. This can also help move the load from non-green-dependent sources to green sources. 
+     
+  </p>
+
+  <div class="chartBox1">
+    <canvas id="myChart1" ></canvas> 
+  </div>
+  
+  <div class="chartBox">
+      <canvas id="myChart"></canvas> 
+</div>
+
+  <script src="script.js"></script>
+ </body>
+
+</html>
